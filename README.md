@@ -28,6 +28,7 @@
 |       64 |      5 |     41,240 |                 88 kB |     0.9996 |         0.9991 |
 |   **32** |  **3** |  **5,240** |             **29 kB** | **0.9999** |         0.9996 |
 |   **16** |  **3** |  **2,024** |             **14 kB** | **0.9996** |         0.9989 |
+
 So a 300x reduction in parameters did not result in a measurable difference in performance. The most deployable model here would be 14kB of weights + activations, which fits most MCU RAM and even the 88Kb of the in-sensor AI core on the IIS3DWB10IS. Memory will thus not be a problem for embedding the model. (at least not on CRWU trained model, own data may need bigger model)
 
 #### Width (channels) is not destructive, depth (blocks) is. (AUC is dispayed)
