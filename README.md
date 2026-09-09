@@ -56,10 +56,11 @@ To acquire good data and stay consistent between measurements/remounts it is ver
 
 To know if the resonance frequency is a problem we do a vibration measurement when tapping the mount while the motor is off and when the motor is running normally. If we then do an FFT analysis and see that the frequencies that are present when tapping the mount are also very present when the motor is running in normal condition, it means the mount is expriencing excitement of its resonance frequencies while in normal conditions. With the original mount it was clear that the resonance frequency was very present. 
 
-These are the major problem of the original mount:
+**These are the major problem of the original mount:**
 - The lever effect
 - There is no real contact area on the bearing housing. The vibrations may mainly transfer through the bolt.
-To solve this I'm thinking of the following solution:
+
+**To solve this I'm thinking of the following solution:**
 - An aluminium block (min. 25x25x5mm) with a countersink to bolt into the bearing housing and 4 small holes for attaching the pcb flat to the aluminium piece. (this aluminium block should have a resonance frequency higher then we can measure with the sensor.) 
 - Milling the top of the bearing housing flat to create surface area for the aluminium piece to make contact with
 
