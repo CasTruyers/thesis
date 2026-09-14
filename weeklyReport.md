@@ -62,7 +62,9 @@ To solve this I'm thinking of the following solution:
 
 In the meantime, Magnus made a better version of the original mount: rounded edges, a new hole closer to the lever and increased the contact area on the bearing housing. I repeated the same measurements and compared. The motor-off noise floor is identical on both mounts.
 
-![mount A2](media/mountA2.jpg)
+**Mount A1** refers to the unmodified bracket
+**Mount A2** refers to the modified bracket as pictured below:
+![mount A2|365](media/mountA2.jpg)
 
 - **Tap-test.** The frequencies the fixture (mount) rings at are different: A1 rings at 170, 385 and 1265Hz(!), A2 at 170, 350 and 485Hz. Note that not all the differences in terms of frequencies or amplitude are from the modified L bracket, flattening the bearing housing increased the contact area at the same time, and the two changes were not seperated on the measurements. 
 ![Tap-test ring-down, mount A1 vs A2](media/fig1_tap_ringdown.png)
@@ -79,3 +81,13 @@ Only the M8 nut changed the measured vibration, but the model failed to flag it.
 more needs to be written/visualized ...
 # Week 4 (7sept)
 - Making the aluminium block mount at NTNU metal workshop.
+- Below is the result of **mount B1**, with a countersink bore trough the block.
+![[mG2ccbya.jpg|303]]
+
+- The same conditions have been logged, analysed and plotted with this mount.
+- figures/results need to be added still...
+## Week 5 (14sept)
+- ST's "turn vibration insight into faster maintenance decisions" webinar were they go over the IIS3DWB10IS sensor (that might be used later)
+
+## Disclaimer
+- Figures of the logged data are created from a python script that is created with the help of genAI.
