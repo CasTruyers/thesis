@@ -86,7 +86,7 @@ more needs to be written/visualized ...
 ## Week 4 (7sept)
 - Making the aluminium block mount at NTNU metal workshop.
 - Below is the result of **mount B1**, with a countersink bore trough the block.
-![[media/mountB1.jpg|379]]
+![mount B1|365](media/mountB1.jpg)
 
 - The same conditions have been logged, analysed and plotted with this mount.
 - figures/results need to be added still...
